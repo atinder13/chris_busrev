@@ -11072,3 +11072,7 @@ img.mfp-img {
 		max-width:100%;
 	}
 }
+
+.no-line, [class*=" no-line-"]{
+  line-height: 5.5rem !important;
+}

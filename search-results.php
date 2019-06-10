@@ -315,6 +315,22 @@ $pagetitle="TripOn - Buses search results";
                                             <?php } ?>
                                         </li>
 											<?php } ?>
+
+                                             <li>
+                                            <h5 class="booking-filters-title">Departure Time</h5>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input class="i-check" type="checkbox" value="05:00:00-11:59:00" name="dptime[]" />Morning (05:00 - 11:59)</label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input class="i-check" type="checkbox" value="12:00:00-17:59:00" name="dptime[]" />Afternoon (12:00 - 17:59)</label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input class="i-check" type="checkbox" value="18:00:00-23:59:00" name="dptime[]" />Evening (18:00 - 23:59)</label>
+                                            </div>
+                                        </li>
                                         <li>
                                             <h5 class="booking-filters-title">Price </h5>
                                             <input type="text" id="price-sliderz" value="5;1000" >
@@ -369,21 +385,7 @@ $pagetitle="TripOn - Buses search results";
                                             </li>
                                         <?php } ?>
                                       
-                                        <li>
-                                            <h5 class="booking-filters-title">Departure Time</h5>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input class="i-check" type="checkbox" value="05:00:00-11:59:00" name="dptime[]" />Morning (05:00 - 11:59)</label>
-                                            </div>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input class="i-check" type="checkbox" value="12:00:00-17:59:00" name="dptime[]" />Afternoon (12:00 - 17:59)</label>
-                                            </div>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input class="i-check" type="checkbox" value="18:00:00-23:59:00" name="dptime[]" />Evening (18:00 - 23:59)</label>
-                                            </div>
-                                        </li>
+                                       
                                     </ul>
                                 </aside>
                             </div>

@@ -76,7 +76,7 @@
 
                                                 </div>
 												
-                        <button class="btn btn-primary reg_btn" type="submit" > Sign up<i class="fa"> </i> </button>
+                        <button class="btn btn-primary reg_btn" type="submit" >Sign up <i class="fas fa-sign-in-alt"> </i> </button>
 
                     </form>
 

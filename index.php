@@ -363,7 +363,7 @@ $DB= new DB_Functions();
                                             if($busTypes != false){
                                             ?>
                                                <div class="tab-content" style="margin-bottom: 2rem;">
-                                                <span style="vertical-align: sub;"><a href="javascript:void(0)" id="flip"><i class="fa fa-plus box-icon-border" style="float: left;margin-right: 1rem;"></i>Amenities</a></span>
+                                                <span style="vertical-align: sub;"><a href="javascript:void(0)" id="flip"><i id="expandCheck" class="fa fa-plus box-icon-border " style="float: left;margin-right: 1rem;"></i>Amenities</a></span>
                                                 <br>
                                             </div>
 
@@ -417,7 +417,7 @@ $DB= new DB_Functions();
                 <div class="row row-wrap" data-gutter="120">
                     <div class="col-md-4">
                         <div class="thumb">
-                            <header class="thumb-header"><i class="far fa-clock box-icon-border round box-icon-white box-icon-big"></i>
+                            <header class="thumb-header"><i class="far fa-clock box-icon-border no-line round box-icon-white box-icon-big"></i>
                             </header>
 
 
@@ -430,7 +430,7 @@ $DB= new DB_Functions();
                     </div>
                     <div class="col-md-4">
                         <div class="thumb">
-                            <header class="thumb-header"><i class="fas fa-bus box-icon-border round box-icon-white box-icon-big"></i>
+                            <header class="thumb-header"><i class="fas fa-bus box-icon-border no-line round box-icon-white box-icon-big"></i>
                             </header>
                             <div class="thumb-caption">
                                 <h4 class="thumb-title">Bus Selection</h4>
@@ -440,7 +440,7 @@ $DB= new DB_Functions();
                     </div>
                     <div class="col-md-4">
                         <div class="thumb">
-                            <header class="thumb-header"><i class="fas fa-couch box-icon-border round box-icon-white box-icon-big"></i>
+                            <header class="thumb-header"><i class="fas fa-couch box-icon-border no-line round box-icon-white box-icon-big"></i>
                             </header>
                             <div class="thumb-caption">
                                 <h4 class="thumb-title">Seat Selection</h4>
@@ -454,7 +454,7 @@ $DB= new DB_Functions();
                 <div class="row row-wrap" data-gutter="120">
                     <div class="col-md-4">
                         <div class="thumb">
-                            <header class="thumb-header"><i class="fa fa-lock box-icon-border round box-icon-white box-icon-big"></i>
+                            <header class="thumb-header"><i class="fa fa-lock box-icon-border no-line round box-icon-white box-icon-big"></i>
                             </header>
                             <div class="thumb-caption">
                                 <h4 class="thumb-title">Trust & Safety </h4>
@@ -464,7 +464,7 @@ $DB= new DB_Functions();
                     </div>
                     <div class="col-md-4">
                         <div class="thumb">
-                            <header class="thumb-header"><i class="fas fa-dollar-sign box-icon-border round box-icon-white box-icon-big"></i>
+                            <header class="thumb-header"><i class="fas fa-dollar-sign no-line box-icon-border round box-icon-white box-icon-big"></i>
                             </header>
                             <div class="thumb-caption">
                                 <h4 class="thumb-title">Best Price Guarantee </h4>
@@ -474,7 +474,7 @@ $DB= new DB_Functions();
                     </div>
                     <div class="col-md-4">
                         <div class="thumb">
-                            <header class="thumb-header"><i class="fas fa-pencil-alt box-icon-border round box-icon-white box-icon-big"></i>
+                            <header class="thumb-header"><i class="fas fa-pencil-alt no-line box-icon-border round box-icon-white box-icon-big"></i>
                             </header>
                             <div class="thumb-caption">
                                 <h4 class="thumb-title">Ratings & Reviews</h4>
@@ -559,6 +559,19 @@ $DB= new DB_Functions();
 $(document).ready(function(){
   $("#flip").click(function(){
     $("#panel").fadeToggle();
+
+      if ($('#expandCheck').hasClass('fa-plus'))
+        {
+$('#expandCheck').removeClass('fa-plus');
+$('#expandCheck').addClass('fa-minus');
+        }
+        else
+        {
+$('#expandCheck').removeClass('fa-minus');
+$('#expandCheck').addClass('fa-plus');
+        }
+
+        
   });
     
 
@@ -707,6 +720,9 @@ $('input.date-pick, .input-daterange input[name="end"]').datepicker({format:'yyy
 
       return errorCounter;
   }
+
+
+ 
 </script>
 
 </body>

@@ -22,7 +22,7 @@ $keywords=(isset($keywords)) ? $keywords : "Bus, Travel, online booking, Nigeria
     <meta name="keywords" content="<?php echo $keywords ?>" />
     <meta name="description" content="<?php echo $Des ?>">
     <meta name="author" content="CP Singh">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <!-- GOOGLE FONTS -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
@@ -76,7 +76,7 @@ $keywords=(isset($keywords)) ? $keywords : "Bus, Travel, online booking, Nigeria
                     <div class="row">
                         <div class="col-md-8">
                             <a class="logo" href="index.php">
-                                <img src="img/logo-invert.png" alt="Image Alternative text" title="Image Title" />
+                                <img src="img/tripon_white_logo.png" alt="Image Alternative text" title="Image Title" />
                             </a>
                         </div>
                        <!-- <div class="col-md-4 nav">

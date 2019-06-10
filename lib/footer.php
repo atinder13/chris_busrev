@@ -6,19 +6,24 @@
                         
                         <ul class="list list-horizontal list-space">
                             <li>
-                                <a class="fa fa-facebook box-icon-normal round animate-icon-bottom-to-top" href="#"></a>
+                                
+                                <a class="fab fa-facebook-f box-icon-normal round animate-icon-bottom-to-top" href="#"></a>
                             </li>
                             <li>
-                                <a class="fa fa-twitter box-icon-normal round animate-icon-bottom-to-top" href="#"></a>
+                                
+                                <a class="fab fa-twitter box-icon-normal round animate-icon-bottom-to-top" href="#"></a>
                             </li>
                             <li>
-                                <a class="fa fa-google-plus box-icon-normal round animate-icon-bottom-to-top" href="#"></a>
+                                
+                                <a class="fab fa-google-plus-g box-icon-normal round animate-icon-bottom-to-top" href="#"></a>
                             </li>
                             <li>
-                                <a class="fa fa-linkedin box-icon-normal round animate-icon-bottom-to-top" href="#"></a>
+                                
+                                <a class="fab fa-linkedin-in box-icon-normal round animate-icon-bottom-to-top" href="#"></a>
                             </li>
                             <li>
-                                <a class="fa fa-pinterest box-icon-normal round animate-icon-bottom-to-top" href="#"></a>
+
+                                <a class="fab fa-pinterest-p box-icon-normal round animate-icon-bottom-to-top" href="#"></a>
                             </li>
                         </ul>
                     </div>
@@ -42,12 +47,16 @@
                             </li>
                             <li><a href="contact-us.php">Contact</a>
                             </li>
+                            <li><a href="#">Privacy Policy</a>
+                            </li>
+                            <li><a href="#">Terms and Conditions</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <h4>Facebook</h4>
                         <h4 class="text-color">+1-202-555-0173</h4>
-                        <h4><a href="#" class="text-color">support@traveler.com</a></h4>
+                        <h4><a href="#" class="text-color">support@tripon.ng</a></h4>
                         <p>24/7 Dedicated Customer Support</p>
                     </div>
 

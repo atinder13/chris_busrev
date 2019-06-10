@@ -51,7 +51,7 @@
                             <label>Password</label>
                             <input class="form-control" name="password" type="password" placeholder="my secret password" />
                         </div>
-                        <button class="btn btn-primary sub_btn" type="submit" />Sign in <i class="fa fa-sign-in"> </i> </button>
+                        <button class="btn btn-primary sub_btn" type="submit" />Sign in <i class="fas fa-sign-in-alt"> </i> </button>
                         <a class="btn btn-link" href="resetpassword.php">
                                     Forgot Your Password?
                                 </a>
