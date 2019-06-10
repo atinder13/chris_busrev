@@ -1,0 +1,44 @@
+<?php
+/*ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);*/
+ define("MYROOTPATH", $_SERVER['DOCUMENT_ROOT']."/bus_html/");
+ 
+define("MYCLASSPATH", MYROOTPATH."config/");
+if (!empty($_SERVER['HTTPS'])) 
+{
+  $Murl="https://".$_SERVER['HTTP_HOST']."/bus_html/";
+}
+else
+{
+$Murl="http://".$_SERVER['HTTP_HOST']."/bus_html/";
+}
+ define('FRONTURL',$Murl);
+
+if (!defined("PJ_HOST")) define("PJ_HOST", "localhost");
+if (!defined("PJ_USER")) define("PJ_USER", "root");
+if (!defined("PJ_PASS")) define("PJ_PASS", "");
+if (!defined("PJ_DB")) define("PJ_DB", "bus_booking");
+if (!defined("PJ_PREFIX")) define("PJ_PREFIX", "");
+if (!defined("PJ_INSTALL_FOLDER")) define("PJ_INSTALL_FOLDER", "/bus_html/admin/");
+if (!defined("PJ_INSTALL_PATH")) define("PJ_INSTALL_PATH", "C:/xampp/htdocs/bus_html/admin/");
+if (!defined("PJ_INSTALL_URL")) define("PJ_INSTALL_URL", "http://127.0.0.1/bus_html/admin/");
+if (!defined("PJ_SALT")) define("PJ_SALT", "2U1EPNPU");
+if (!defined("PJ_INSTALLATION")) define("PJ_INSTALLATION", "NjYyMjk5NDE1NDA3MDc2OTgxNjEzODMwNjQ5OTAzOTQ5MTQxNDg3NDcwMzA1NzAyNzA4MTI0Nzg1MjcxNjA2MDUyNDIxMzUwMTY4ODY2NjU3MDE5NDAwMzI2NTQyODcwNzg5IDEyODkyNjkzOTA1ODI0MjM1MzMyMTk2OTk1MTA5MTAzNTA5MDgxNjk3MzExNTA3NjAxMTYwNDcwMzQ3MzM4NDk2NTY2MDk0MTc0OTg4MzE5NTk4NzMzNzQzNjI3NjI1ODI3MyA3MDg0MzI0MDc5MjY1MDg1NjIyMDEwNTE4MzU3ODU1MzA2MTM3MTgzMjQ1MzE2NzM5MDcyNTA1MjkzMjYyNDY1ODc5MjcxMDcxODE5MTcwMjMyMzA0ODg4NzEyNjEzMjM5MTI=");
+date_default_timezone_set("Africa/Lagos");
+//don't rearranged 
+$DBAmenities=array(
+	1 => 'WIFI',
+	2 => 'SLEEPER',
+	3 => 'AC',
+	4 => 'Bedrooms',
+	5 => 'Bathrooms',
+);
+
+$DEFAULTSEATMAP=array(
+	'default.jpg',
+	'default1.jpg',
+	'1_8b62fd1ff776f7062cef28753e22c6d1.jpg'
+	
+);
+?>
