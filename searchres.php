@@ -202,7 +202,7 @@ $DBUSER= new DB_Functions();
 														?>
 													<button class="btn btn-primary view-seat-ng"> View Seat</button>
 													<br>
-													<a href="#" target="_blank">Cancel Policy </a>	
+													<a href="#" target="_blank" data-toggle="modal" data-target="#cancellation">Cancel Policy </a>	
 												<?php 
 												}
 												else{
