@@ -10921,6 +10921,7 @@ img.mfp-img {
   position: relative;
   height: auto;
   width: 100%;
+  min-height: 500px !important;
 }
 .ri-grid ul {
   list-style: none;
